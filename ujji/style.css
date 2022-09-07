@@ -1,0 +1,93 @@
+.hh{
+    font-size: 90px;
+   margin-left: 690px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+@media screen and (min-width: 480px) {
+  .ujji {
+    height: 500px;
+    width: 100px;
+   }
+   .hh{
+       margin-right: 800px;
+   }
+  }
+  .ujji{
+      height: 500px;
+  }
+  .saim{
+    height: 500px;
+  }
+
+
+
+  .lalay{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border: 2px solid black;
+    width: 50%;
+    background-image: linear-gradient(yellow, red, orange);
+  }
+
+  .la{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.card{
+  width: 20%;
+}
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+
+
+
+  
+.card:before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(-45deg, #60efff 0%, #00ff87 100% );
+  transform: translate3d(10px, 30px, 10) scale(0.95);
+  filter: blur(20px);
+  opacity: var(0.7);
+  transition: opacity 0.3s;
+  border-radius: inherit;
+}
+
+
+.card::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  border-radius: inherit;
+}
+      
